@@ -55,7 +55,7 @@ public class Layout : MonoBehaviour
             tSD.x = float.Parse(slotsX[i].att("x"));
             tSD.y = float.Parse(slotsX[i].att("y"));
             tSD.layerID = int.Parse(slotsX[i].att("layer"));
-            tSD.layerName = sortingLayerNames[tSD.layerID];
+              tSD.layerName = sortingLayerNames[tSD.layerID];
             switch (tSD.type)
             {
                 case "slot":
