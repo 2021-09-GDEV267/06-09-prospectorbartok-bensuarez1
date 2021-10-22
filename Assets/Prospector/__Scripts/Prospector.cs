@@ -72,6 +72,7 @@ public class Prospector : MonoBehaviour {
 		Scoreboard.S.score = ScoreManager.SCORE;
 		deck = GetComponent<Deck>();
 		deck.InitDeck (deckXML.text);
+		layout = GetComponent<Layout>();
 		layout.ReadLayout(layoutXML.text);
 		Deck.Shuffle(ref deck.cards);
 
@@ -313,7 +314,7 @@ public class Prospector : MonoBehaviour {
 
 	void ReloadLevel()
 	{
-		SceneManager.LoadScene("__Prospector_Scene_0");
+		SceneManager.LoadScene("GameScene");
 	}
 
 	public bool AdjacentRank(CardProspector c0, CardProspector c1)
