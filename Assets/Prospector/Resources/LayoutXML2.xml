@@ -12,21 +12,21 @@
 	<!-- hiddenby is the ids of cards that keep a card face-down -->
 	
 	<!-- Layer0, the deepest cards. -->
-	<slot id="0" x="-6" y="-5" faceup="1" layer="0" />
+	<slot id="0" x="-3" y="-5" faceup="1" layer="0" />
 	<slot id="1" x="0"  y="-5" faceup="1" layer="0" />
-	<slot id="2" x="6"  y="-5" faceup="1" layer="0" />
-	<slot id="2" x="6"  y="-5" faceup="1" layer="0" />
-	<slot id="2" x="6"  y="-5" faceup="1" layer="0" />
-	<slot id="2" x="6"  y="-5" faceup="1" layer="0" />
-	<slot id="2" x="6"  y="-5" faceup="1" layer="0" />
-	<slot id="2" x="6"  y="-5" faceup="1" layer="0" />
-	<slot id="2" x="6"  y="-5" faceup="1" layer="0" />
+	<slot id="2" x="3"  y="-5" faceup="1" layer="0" />
+	<slot id="3" x="-3"  y="-2" faceup="1" layer="0" />
+	<slot id="4" x="0"  y="-2" faceup="1" layer="0" />
+	<slot id="5" x="3"  y="-2" faceup="1" layer="0" />
+	<slot id="6" x="-3"  y="1" faceup="1" layer="0" />
+	<slot id="7" x="0"  y="1" faceup="1" layer="0" />
+	<slot id="8" x="3"  y="1" faceup="1" layer="0" />
 	
 	<!-- This positions the draw pile and staggers it -->
 	<slot type="drawpile" x="6" y="4" xstagger="0.15" layer="4"/>
 	
 	<!-- This positions the discard pile and target card -->
-	<slot type="discardpile" x="0" y="1" layer="5"/>
+	<slot type="discardpile" x="-8" y="1" layer="5"/>
 	
 </xml>
 	
