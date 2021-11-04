@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[System.Serializable]
+//[System.Serializable]
 
-public class SlotDef
+/*public class SlotDef
 {
     public float x;
     public float y;
@@ -16,7 +16,7 @@ public class SlotDef
     public string type = "slot";
     public Vector2 stagger;
 }
-
+*/
 public class Layout : MonoBehaviour
 {
     public PT_XMLReader xmlr;
