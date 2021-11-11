@@ -10,7 +10,7 @@ public enum PlayerType
 }
 
 [System.Serializable]
-public class Player : MonoBehaviour
+public class Player
 {
     public PlayerType type = PlayerType.ai;
     public int playerNum;
